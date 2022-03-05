@@ -16,11 +16,11 @@ btns.forEach(function (btn) {
             count = 0;
         }
         if (count > 0) {
-            value.style.color = 'green';
+            value.style.color = '#00cc00';
         } else if (count < 0) {
-            value.style.color = 'red';
+            value.style.color = '#ff0000';
         } else {
-            value.style.color = 'black';
+            value.style.color = '#102a42';
         }
         value.textContent = count;
     });
